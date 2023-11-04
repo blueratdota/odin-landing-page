@@ -11,7 +11,6 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     background-color: #FBF2EF;
 }
 
@@ -23,29 +22,47 @@ li, a {
 
 .nav-bar{
     display: flex;
-    height: 60px;
-    background-color: #ddd4d1;
-
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    flex-direction: row;
     position: fixed;
+    justify-content: space-between;
+    height: 60px;
+    left: 0;
+    right: 0;
+    padding: 0 12%;
+    background-color: #ddd4d1;
+    align-items: center; 
+    border-bottom: 1px solid rgb(212, 212, 212);
+    
 }
 
 .logo img{
     border-radius: 50%;
     height: 40px;
-    margin-left: 40px;
 }
 
 .links>ul{
-    margin: 0 40px;
     display: flex;
     gap: 16px;
 }
 
-
-
 .welcome-bar{
-    margin: 65px 0;
+    margin: 100px 0 50px 0;
+    padding: 0 12%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.welcome-bar > div{
+    flex: 1;
+}
+
+.big-photo > img{
+    max-height: 350px;
+    margin: auto 50px;
+}
+
+.info-short{ 
+    min-width: 250px;
+    margin: auto 50px;
+    line-height: 2rem;
 }
