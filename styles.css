@@ -66,3 +66,39 @@ li, a {
     margin: auto 50px;
     line-height: 2rem;
 }
+
+/* main body */
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12%;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.info-top{
+    max-width: 500px;
+    margin: 50px auto;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.info-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.small-photo{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.info-body > div {
+    width: 325px;
+    flex-grow: 0    ;
+    text-align: center;
+}
+
