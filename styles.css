@@ -40,7 +40,7 @@ li, a {
     height: 40px;
 }
 
-.links>ul{
+.links-1>ul{
     display: flex;
     gap: 16px;
 }
@@ -102,3 +102,27 @@ li, a {
     text-align: center;
 }
 
+/* footer area */
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #0000000d;
+    margin: 100px 10%;
+    border-radius: 10px;
+    padding: 30px 80px;
+}
+
+.row.top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.column{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* kulang pa design2 sa footer -- technically overall kailangan pa deisgnan */
